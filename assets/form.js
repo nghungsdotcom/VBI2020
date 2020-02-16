@@ -1,3 +1,9 @@
+$(document).ready(function () {
+    $('#btndk').click(function () {
+        $('#modalstep1').modal('show');
+        return false;
+    });
+});
 $(function()
 {
 	$('#vtfstep1').submit(function(e)
@@ -7,10 +13,6 @@ $(function()
         //show some response on the button
         $('button[type="submit"]', $form).each(function()
         {
-            $btn = $(this);
-            $btn.prop('type','button' ); 
-            //$btn.prop('orig_label',$btn.text());
-            //$btn.text('Sending ...');
 			$('#divMsg').show();
         });
         $.ajax({
@@ -48,10 +50,6 @@ $(function()
         //show some response on the button
         $('button[type="submit"]', $form).each(function()
         {
-            $btn = $(this);
-            $btn.prop('type','button' ); 
-            //$btn.prop('orig_label',$btn.text());
-            //$btn.text('Sending ...');
 			$('#divMsg').show();
         });
         $.ajax({
@@ -90,10 +88,6 @@ $(function()
         //show some response on the button
         $('button[type="submit"]', $form).each(function()
         {
-            $btn = $(this);
-            $btn.prop('type','button' ); 
-            //$btn.prop('orig_label',$btn.text());
-            //$btn.text('Sending ...');
 			$('#divMsg').show();
         });
         $.ajax({
