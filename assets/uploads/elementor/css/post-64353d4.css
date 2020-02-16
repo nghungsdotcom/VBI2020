@@ -1,0 +1,141 @@
+.elementor-643 .elementor-element.elementor-element-59fea2c .elementskit-accordion .elementskit-card-header>.elementskit-btn-link{font-family:"VBI-Font", Sans-serif;font-size:17px;background-color:rgba(255, 171, 195, 0.18823529411764706);}.elementor-643 .elementor-element.elementor-element-59fea2c .elementskit-accordion.accoedion-primary .elementskit-card .elementskit-card-header>.elementskit-btn-link[aria-expanded="true"], .elementor-643 .elementor-element.elementor-element-59fea2c .elementskit-accordion .elementskit-card-header>.elementskit-btn-link[aria-expanded=true], .elementor-643 .elementor-element.elementor-element-59fea2c .elementskit-accordion.floating-style .elementskit-card .elementskit-btn-link[aria-expanded="true"]{background-color:rgba(66, 153, 255, 0.18823529411764706);}.elementor-643 .elementor-element.elementor-element-59fea2c .elementskit-accordion .elementskit-card-body p, .elementor-643 .elementor-element.elementor-element-59fea2c .elementskit-accordion .elementskit-card-body{font-family:"VBI-Font", Sans-serif;font-size:16px;}.elementor-643 .elementor-element.elementor-element-59fea2c .elementskit-accordion .elementskit-card-body{padding:30px 30px 30px 30px;}.elementor-643 .elementor-element.elementor-element-59fea2c .elementskit-accordion .elementskit-card-header .elementskit-btn-link .icon-open{color:#FF1E5D;}.elementor-643 .elementor-element.elementor-element-59fea2c .elementskit-accordion .elementskit-card-header .elementskit-btn-link  .icon-open{font-size:22px;}.elementor-643 .elementor-element.elementor-element-59fea2c .elementskit-accordion .elementskit-card-header .elementskit-btn-link svg{max-width:22px;height:auto;}.elementor-643 .elementor-element.elementor-element-59fea2c .elementskit-accordion .elementskit-card-header .elementskit-btn-link .icon-closed{color:#FF1E5D;}.elementor-643 .elementor-element.elementor-element-59fea2c .elementskit-accordion .elementskit-card .elementskit-card-header .elementskit-btn-link .icon-closed{font-size:22px;}.elementor-643 .elementor-element.elementor-element-59fea2c .elementskit-accordion .elementskit-card .elementskit-card-header .elementskit-btn-link svg{max-width:22px;height:auto;}.elementor-643 .elementor-element.elementor-element-59fea2c > .elementor-widget-container{margin:0px 0px 0px 0px;}.elementor-643 .elementor-element.elementor-element-7a60b04{overflow:visible;}@media(max-width:767px){.elementor-643 .elementor-element.elementor-element-59fea2c .elementskit-accordion .elementskit-card-body{padding:15px 15px 15px 15px;}}/* Start Custom Fonts CSS */@font-face {
+	font-family: 'VBI-Font';
+	font-style: normal;
+	font-weight: 100;
+	font-display: auto;
+	src: url('../../2019/12/VN-VFont-Thin.eot');
+	src: url('../../2019/12/VN-VFont-Thind41d.eot?#iefix') format('embedded-opentype'),
+		url('../../2019/12/VN-VFont-Thin.woff') format('woff'),
+		url('../../2019/12/VN-VFont-Thin.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'VBI-Font';
+	font-style: italic;
+	font-weight: 100;
+	font-display: auto;
+	src: url('../../2019/12/VN-VFont-Thin-Italic.eot');
+	src: url('../../2019/12/VN-VFont-Thin-Italicd41d.eot?#iefix') format('embedded-opentype'),
+		url('../../2019/12/VN-VFont-Thin-Italic.woff') format('woff'),
+		url('../../2019/12/VN-VFont-Thin-Italic.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'VBI-Font';
+	font-style: normal;
+	font-weight: 300;
+	font-display: auto;
+	src: url('../../2019/12/VN-VFont-Light.eot');
+	src: url('../../2019/12/VN-VFont-Lightd41d.eot?#iefix') format('embedded-opentype'),
+		url('../../2019/12/VN-VFont-Light.woff') format('woff'),
+		url('../../2019/12/VN-VFont-Light.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'VBI-Font';
+	font-style: italic;
+	font-weight: 300;
+	font-display: auto;
+	src: url('../../2019/12/VN-VFont-Light-Italic.eot');
+	src: url('../../2019/12/VN-VFont-Light-Italicd41d.eot?#iefix') format('embedded-opentype'),
+		url('../../2019/12/VN-VFont-Light-Italic.woff') format('woff'),
+		url('../../2019/12/VN-VFont-Light-Italic.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'VBI-Font';
+	font-style: normal;
+	font-weight: normal;
+	font-display: auto;
+	src: url('../../2019/12/VN-VFont-Regular.eot');
+	src: url('../../2019/12/VN-VFont-Regulard41d.eot?#iefix') format('embedded-opentype'),
+		url('../../2019/12/VN-VFont-Regular.woff') format('woff'),
+		url('../../2019/12/VN-VFont-Regular.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'VBI-Font';
+	font-style: italic;
+	font-weight: normal;
+	font-display: auto;
+	src: url('../../2019/12/VN-VFont-Italic.eot');
+	src: url('../../2019/12/VN-VFont-Italicd41d.eot?#iefix') format('embedded-opentype'),
+		url('../../2019/12/VN-VFont-Italic.woff') format('woff'),
+		url('../../2019/12/VN-VFont-Italic.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'VBI-Font';
+	font-style: normal;
+	font-weight: 500;
+	font-display: auto;
+	src: url('../../2019/12/VN-VFont-Medium.eot');
+	src: url('../../2019/12/VN-VFont-Mediumd41d.eot?#iefix') format('embedded-opentype'),
+		url('../../2019/12/VN-VFont-Medium.woff') format('woff'),
+		url('../../2019/12/VN-VFont-Medium.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'VBI-Font';
+	font-style: italic;
+	font-weight: 500;
+	font-display: auto;
+	src: url('../../2019/12/VN-VFont-Medium-Italic.eot');
+	src: url('../../2019/12/VN-VFont-Medium-Italicd41d.eot?#iefix') format('embedded-opentype'),
+		url('../../2019/12/VN-VFont-Medium-Italic.woff') format('woff'),
+		url('../../2019/12/VN-VFont-Medium-Italic.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'VBI-Font';
+	font-style: normal;
+	font-weight: 600;
+	font-display: auto;
+	src: url('../../2019/12/VN-VFont-SemiBold.eot');
+	src: url('../../2019/12/VN-VFont-SemiBoldd41d.eot?#iefix') format('embedded-opentype'),
+		url('../../2019/12/VN-VFont-SemiBold.woff') format('woff'),
+		url('../../2019/12/VN-VFont-SemiBold.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'VBI-Font';
+	font-style: italic;
+	font-weight: 600;
+	font-display: auto;
+	src: url('../../2019/12/VN-VFont-SemiBold-Italic.eot');
+	src: url('../../2019/12/VN-VFont-SemiBold-Italicd41d.eot?#iefix') format('embedded-opentype'),
+		url('../../2019/12/VN-VFont-SemiBold-Italic.woff') format('woff'),
+		url('../../2019/12/VN-VFont-SemiBold-Italic.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'VBI-Font';
+	font-style: normal;
+	font-weight: bold;
+	font-display: auto;
+	src: url('../../2019/12/VN-VFont-Bold.eot');
+	src: url('../../2019/12/VN-VFont-Boldd41d.eot?#iefix') format('embedded-opentype'),
+		url('../../2019/12/VN-VFont-Bold.woff') format('woff'),
+		url('../../2019/12/VN-VFont-Bold.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'VBI-Font';
+	font-style: italic;
+	font-weight: bold;
+	font-display: auto;
+	src: url('../../2019/12/VN-VFont-Bold-Italic.eot');
+	src: url('../../2019/12/VN-VFont-Bold-Italicd41d.eot?#iefix') format('embedded-opentype'),
+		url('../../2019/12/VN-VFont-Bold-Italic.woff') format('woff'),
+		url('../../2019/12/VN-VFont-Bold-Italic.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'VBI-Font';
+	font-style: normal;
+	font-weight: 900;
+	font-display: auto;
+	src: url('../../2019/12/VN-VFont-Heavy.eot');
+	src: url('../../2019/12/VN-VFont-Heavyd41d.eot?#iefix') format('embedded-opentype'),
+		url('../../2019/12/VN-VFont-Heavy.woff') format('woff'),
+		url('../../2019/12/VN-VFont-Heavy.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'VBI-Font';
+	font-style: italic;
+	font-weight: 900;
+	font-display: auto;
+	src: url('../../2019/12/VN-VFont-Heavy-Italic.eot');
+	src: url('../../2019/12/VN-VFont-Heavy-Italicd41d.eot?#iefix') format('embedded-opentype'),
+		url('../../2019/12/VN-VFont-Heavy-Italic.woff') format('woff'),
+		url('../../2019/12/VN-VFont-Heavy-Italic.ttf') format('truetype');
+}
+/* End Custom Fonts CSS */

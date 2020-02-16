@@ -1,0 +1,155 @@
+.elementor-469 .elementor-element.elementor-element-b11de1b > .elementor-element-populated{margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;}.elementor-469 .elementor-element.elementor-element-54b93d4{text-align:right;}.elementor-469 .elementor-element.elementor-element-54b93d4 .elementor-image img{width:72px;}.elementor-469 .elementor-element.elementor-element-54b93d4 > .elementor-widget-container{margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;}.elementor-469 .elementor-element.elementor-element-441a11b{margin-top:-107px;margin-bottom:0px;overflow:visible;}.elementor-469 .elementor-element.elementor-element-680c24d .elementor-text-editor{text-align:right;}.elementor-469 .elementor-element.elementor-element-680c24d{font-family:"VBI-Font", Sans-serif;font-size:13px;font-style:italic;}.elementor-469 .elementor-element.elementor-element-d1d56b3:not(.elementor-motion-effects-element-type-background), .elementor-469 .elementor-element.elementor-element-d1d56b3 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#F6F6F6;}.elementor-469 .elementor-element.elementor-element-d1d56b3{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;overflow:visible;}.elementor-469 .elementor-element.elementor-element-d1d56b3 > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}/* Start custom CSS for section, class: .elementor-element-441a11b *//* Thumbnail Image */
+.elementor-location-footer .elementor-image .attachment-large{
+	position:relative;
+	right:0px;
+	animation-fill-mode:both;
+	animation-iteration-count:infinite;
+}
+
+/* Thumbnail Image (onscreen) */
+.elementor-location-footer .elementor-image .attachment-large.yp_onscreen{
+	animation-duration:1s;
+	animation-delay:0s;
+	animation-name:pulse;
+}/* End custom CSS */
+/* Start Custom Fonts CSS */@font-face {
+	font-family: 'VBI-Font';
+	font-style: normal;
+	font-weight: 100;
+	font-display: auto;
+	src: url('../../2019/12/VN-VFont-Thin.eot');
+	src: url('../../2019/12/VN-VFont-Thind41d.eot?#iefix') format('embedded-opentype'),
+		url('../../2019/12/VN-VFont-Thin.woff') format('woff'),
+		url('../../2019/12/VN-VFont-Thin.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'VBI-Font';
+	font-style: italic;
+	font-weight: 100;
+	font-display: auto;
+	src: url('../../2019/12/VN-VFont-Thin-Italic.eot');
+	src: url('../../2019/12/VN-VFont-Thin-Italicd41d.eot?#iefix') format('embedded-opentype'),
+		url('../../2019/12/VN-VFont-Thin-Italic.woff') format('woff'),
+		url('../../2019/12/VN-VFont-Thin-Italic.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'VBI-Font';
+	font-style: normal;
+	font-weight: 300;
+	font-display: auto;
+	src: url('../../2019/12/VN-VFont-Light.eot');
+	src: url('../../2019/12/VN-VFont-Lightd41d.eot?#iefix') format('embedded-opentype'),
+		url('../../2019/12/VN-VFont-Light.woff') format('woff'),
+		url('../../2019/12/VN-VFont-Light.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'VBI-Font';
+	font-style: italic;
+	font-weight: 300;
+	font-display: auto;
+	src: url('../../2019/12/VN-VFont-Light-Italic.eot');
+	src: url('../../2019/12/VN-VFont-Light-Italicd41d.eot?#iefix') format('embedded-opentype'),
+		url('../../2019/12/VN-VFont-Light-Italic.woff') format('woff'),
+		url('../../2019/12/VN-VFont-Light-Italic.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'VBI-Font';
+	font-style: normal;
+	font-weight: normal;
+	font-display: auto;
+	src: url('../../2019/12/VN-VFont-Regular.eot');
+	src: url('../../2019/12/VN-VFont-Regulard41d.eot?#iefix') format('embedded-opentype'),
+		url('../../2019/12/VN-VFont-Regular.woff') format('woff'),
+		url('../../2019/12/VN-VFont-Regular.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'VBI-Font';
+	font-style: italic;
+	font-weight: normal;
+	font-display: auto;
+	src: url('../../2019/12/VN-VFont-Italic.eot');
+	src: url('../../2019/12/VN-VFont-Italicd41d.eot?#iefix') format('embedded-opentype'),
+		url('../../2019/12/VN-VFont-Italic.woff') format('woff'),
+		url('../../2019/12/VN-VFont-Italic.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'VBI-Font';
+	font-style: normal;
+	font-weight: 500;
+	font-display: auto;
+	src: url('../../2019/12/VN-VFont-Medium.eot');
+	src: url('../../2019/12/VN-VFont-Mediumd41d.eot?#iefix') format('embedded-opentype'),
+		url('../../2019/12/VN-VFont-Medium.woff') format('woff'),
+		url('../../2019/12/VN-VFont-Medium.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'VBI-Font';
+	font-style: italic;
+	font-weight: 500;
+	font-display: auto;
+	src: url('../../2019/12/VN-VFont-Medium-Italic.eot');
+	src: url('../../2019/12/VN-VFont-Medium-Italicd41d.eot?#iefix') format('embedded-opentype'),
+		url('../../2019/12/VN-VFont-Medium-Italic.woff') format('woff'),
+		url('../../2019/12/VN-VFont-Medium-Italic.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'VBI-Font';
+	font-style: normal;
+	font-weight: 600;
+	font-display: auto;
+	src: url('../../2019/12/VN-VFont-SemiBold.eot');
+	src: url('../../2019/12/VN-VFont-SemiBoldd41d.eot?#iefix') format('embedded-opentype'),
+		url('../../2019/12/VN-VFont-SemiBold.woff') format('woff'),
+		url('../../2019/12/VN-VFont-SemiBold.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'VBI-Font';
+	font-style: italic;
+	font-weight: 600;
+	font-display: auto;
+	src: url('../../2019/12/VN-VFont-SemiBold-Italic.eot');
+	src: url('../../2019/12/VN-VFont-SemiBold-Italicd41d.eot?#iefix') format('embedded-opentype'),
+		url('../../2019/12/VN-VFont-SemiBold-Italic.woff') format('woff'),
+		url('../../2019/12/VN-VFont-SemiBold-Italic.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'VBI-Font';
+	font-style: normal;
+	font-weight: bold;
+	font-display: auto;
+	src: url('../../2019/12/VN-VFont-Bold.eot');
+	src: url('../../2019/12/VN-VFont-Boldd41d.eot?#iefix') format('embedded-opentype'),
+		url('../../2019/12/VN-VFont-Bold.woff') format('woff'),
+		url('../../2019/12/VN-VFont-Bold.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'VBI-Font';
+	font-style: italic;
+	font-weight: bold;
+	font-display: auto;
+	src: url('../../2019/12/VN-VFont-Bold-Italic.eot');
+	src: url('../../2019/12/VN-VFont-Bold-Italicd41d.eot?#iefix') format('embedded-opentype'),
+		url('../../2019/12/VN-VFont-Bold-Italic.woff') format('woff'),
+		url('../../2019/12/VN-VFont-Bold-Italic.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'VBI-Font';
+	font-style: normal;
+	font-weight: 900;
+	font-display: auto;
+	src: url('../../2019/12/VN-VFont-Heavy.eot');
+	src: url('../../2019/12/VN-VFont-Heavyd41d.eot?#iefix') format('embedded-opentype'),
+		url('../../2019/12/VN-VFont-Heavy.woff') format('woff'),
+		url('../../2019/12/VN-VFont-Heavy.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'VBI-Font';
+	font-style: italic;
+	font-weight: 900;
+	font-display: auto;
+	src: url('../../2019/12/VN-VFont-Heavy-Italic.eot');
+	src: url('../../2019/12/VN-VFont-Heavy-Italicd41d.eot?#iefix') format('embedded-opentype'),
+		url('../../2019/12/VN-VFont-Heavy-Italic.woff') format('woff'),
+		url('../../2019/12/VN-VFont-Heavy-Italic.ttf') format('truetype');
+}
+/* End Custom Fonts CSS */

@@ -1,0 +1,26 @@
+[10-Feb-2020 09:23:37 UTC] PHP Notice:  Array to string conversion in /home/gdfhxmrlhosting/public_html/nghungs.com/vbi2020/AB/assets/src/FormHandler.php on line 265
+[10-Feb-2020 09:36:50 UTC] PHP Notice:  Array to string conversion in /home/gdfhxmrlhosting/public_html/nghungs.com/vbi2020/AB/assets/src/FormHandler.php on line 265
+[10-Feb-2020 09:36:58 UTC] PHP Notice:  Array to string conversion in /home/gdfhxmrlhosting/public_html/nghungs.com/vbi2020/AB/assets/src/FormHandler.php on line 265
+[10-Feb-2020 09:50:50 UTC] PHP Notice:  Array to string conversion in /home/gdfhxmrlhosting/public_html/nghungs.com/vbi2020/AB/assets/src/FormHandler.php on line 265
+[13-Feb-2020 03:59:08 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/gdfhxmrlhosting/public_html/nghungs.com/vbi2020/AB/assets/handler.php on line 17
+[13-Feb-2020 04:16:13 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/gdfhxmrlhosting/public_html/nghungs.com/vbi2020/AB/assets/handler.php on line 27
+[13-Feb-2020 04:45:47 UTC] PHP Parse error:  syntax error, unexpected '$pp' (T_VARIABLE) in /home/gdfhxmrlhosting/public_html/nghungs.com/vbi2020/AB/assets/handler3.php on line 25
+[13-Feb-2020 04:46:16 UTC] PHP Parse error:  syntax error, unexpected '$pp' (T_VARIABLE) in /home/gdfhxmrlhosting/public_html/nghungs.com/vbi2020/AB/assets/handler3.php on line 25
+[13-Feb-2020 06:44:25 UTC] PHP Fatal error:  Uncaught Error: Class 'FormGuide\Handlx\FormHandler' not found in /home/gdfhxmrlhosting/public_html/nghungs.com/vbi2020/AB/assets/handler2.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/gdfhxmrlhosting/public_html/nghungs.com/vbi2020/AB/assets/handler2.php on line 14
+[13-Feb-2020 06:44:48 UTC] PHP Fatal error:  Uncaught Error: Class 'FormGuide\Handlx\FormHandler' not found in /home/gdfhxmrlhosting/public_html/nghungs.com/vbi2020/AB/assets/handler2.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/gdfhxmrlhosting/public_html/nghungs.com/vbi2020/AB/assets/handler2.php on line 14
+[13-Feb-2020 06:45:00 UTC] PHP Fatal error:  Uncaught Error: Class 'FormGuide\Handlx\FormHandler' not found in /home/gdfhxmrlhosting/public_html/nghungs.com/vbi2020/AB/assets/handler2.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/gdfhxmrlhosting/public_html/nghungs.com/vbi2020/AB/assets/handler2.php on line 14
+[14-Feb-2020 16:32:40 UTC] PHP Warning:  require_once(./vendor/autoload.php): failed to open stream: No such file or directory in /home/gdfhxmrlhosting/public_html/nghungs.com/vbi2020/AB/assets/handler.php on line 9
+[14-Feb-2020 16:32:40 UTC] PHP Fatal error:  require_once(): Failed opening required './vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/gdfhxmrlhosting/public_html/nghungs.com/vbi2020/AB/assets/handler.php on line 9
+[14-Feb-2020 16:33:56 UTC] PHP Warning:  require_once(./vendor/autoload.php): failed to open stream: No such file or directory in /home/gdfhxmrlhosting/public_html/nghungs.com/vbi2020/AB/assets/handler.php on line 9
+[14-Feb-2020 16:33:56 UTC] PHP Fatal error:  require_once(): Failed opening required './vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/gdfhxmrlhosting/public_html/nghungs.com/vbi2020/AB/assets/handler.php on line 9
+[14-Feb-2020 19:37:56 UTC] PHP Warning:  require_once(./assets//vendor/autoload.php): failed to open stream: No such file or directory in /home/gdfhxmrlhosting/public_html/nghungs.com/vbi2020/AB/assets/handler.php on line 9
+[14-Feb-2020 19:37:56 UTC] PHP Fatal error:  require_once(): Failed opening required './assets//vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/gdfhxmrlhosting/public_html/nghungs.com/vbi2020/AB/assets/handler.php on line 9
