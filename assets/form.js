@@ -1,5 +1,26 @@
 $(document).ready(function () {
-    $('#btndk').click(function () {
+    $('#btndk1').click(function () {
+        $('#modalstep1').modal('show');
+        return false;
+    });
+});
+$(document).ready(function () {
+    $('#btndk2').click(function () {
+        $('#modalstep1').modal('show');
+        return false;
+    });
+});
+// Ham xử lý gửi lại OTP
+$(document).ready(function () {
+    $('#resendbtn').click(function () {
+
+
+
+
+    });
+});
+$(document).ready(function () {
+    $('#resendbtndt').click(function () {
         $('#modalstep1').modal('show');
         return false;
     });
@@ -13,6 +34,10 @@ $(function()
         //show some response on the button
         $('button[type="submit"]', $form).each(function()
         {
+            //$btn = $(this);
+            //$btn.prop('type','button' ); 
+            //$btn.prop('orig_label',$btn.text());
+            //$btn.text('Sending ...');
 			$('#divMsg').show();
         });
         $.ajax({
@@ -33,6 +58,29 @@ $(function()
 			$('#modalstep1').modal('hide');
 			$('#modalstep2').modal('show');
             $('#error_message').hide();
+			
+			// Set the date we're counting down to
+			var countDownDate = new Date(Date.now() + 22000).getTime();
+			// Update the count down every 1 second
+			var x = setInterval(function() {
+			// Get todays date and time
+			var now = new Date().getTime();
+			// Find the distance between now and the count down date
+			var distance = countDownDate - now;
+
+			  // Time calculations for days, hours, minutes and seconds
+			  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+			  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+			  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+			  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+				document.getElementById("reotp").innerHTML = "Gửi lại mã xác nhận OTP sau " + seconds + "s";
+
+			  // If the count down is over, write some text 
+			  if (distance < 0) {
+				clearInterval(x);
+				document.getElementById("reotp").innerHTML = '<p id="resendbtn">Gửi lại mã OTP</p>';
+			  }
+			}, 1000);
         }
         else
         {
@@ -50,6 +98,10 @@ $(function()
         //show some response on the button
         $('button[type="submit"]', $form).each(function()
         {
+            //btn = $(this);
+            //$btn.prop('type','button' ); 
+            //$btn.prop('orig_label',$btn.text());
+            //$btn.text('Sending ...');
 			$('#divMsg').show();
         });
         $.ajax({
@@ -88,6 +140,10 @@ $(function()
         //show some response on the button
         $('button[type="submit"]', $form).each(function()
         {
+            //$btn = $(this);
+            //$btn.prop('type','button' ); 
+            //$btn.prop('orig_label',$btn.text());
+            //$btn.text('Sending ...');
 			$('#divMsg').show();
         });
         $.ajax({
