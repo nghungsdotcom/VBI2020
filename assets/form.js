@@ -10,15 +10,32 @@ $(document).ready(function () {
         return false;
     });
 });
-// Ham xử lý gửi lại OTP
-$(document).ready(function () {
-    $('#resendbtn').click(function () {
+// Hàm xử lý reOTP
+function resendbtn() {
+	// Set the date we're counting down to
+	var countDownDate = new Date(Date.now() + 21000).getTime();
+	// Update the count down every 1 second
+	var x = setInterval(function() {
+	// Get todays date and time
+	var now = new Date().getTime();
+	// Find the distance between now and the count down date
+	var distance = countDownDate - now;
 
+	 // Time calculations for days, hours, minutes and seconds
+	var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+	var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+	var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+	var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+	document.getElementById("reotp").innerHTML = "Bạn có thể gửi lại mã xác nhận OTP sau " + seconds + "s";
 
+	 // If the count down is over, write some text 
+	if (distance < 0) {
+		clearInterval(x);
+		document.getElementById("reotp").innerHTML = '<p onclick="resendbtn()">Gửi lại mã OTP</p>';
+	}
+	}, 100);
+}
 
-
-    });
-});
 $(document).ready(function () {
     $('#resendbtndt').click(function () {
         $('#modalstep1').modal('show');
@@ -73,12 +90,12 @@ $(function()
 			  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
 			  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
 			  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-				document.getElementById("reotp").innerHTML = "Gửi lại mã xác nhận OTP sau " + seconds + "s";
+				document.getElementById("reotp").innerHTML = "Bạn có thể gửi lại mã xác nhận OTP sau " + seconds + "s";
 
 			  // If the count down is over, write some text 
 			  if (distance < 0) {
 				clearInterval(x);
-				document.getElementById("reotp").innerHTML = '<p id="resendbtn">Gửi lại mã OTP</p>';
+				document.getElementById("reotp").innerHTML = '<p onclick="resendbtn()">Gửi lại mã OTP</p>';
 			  }
 			}, 1000);
         }
