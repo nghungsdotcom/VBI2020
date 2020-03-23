@@ -10,7 +10,7 @@ $(document).ready(function () {
         return false;
     });
 });
-// Hàm xử lý reOTP
+
 function resendbtn() {
 	// Set the date we're counting down to
 	var countDownDate = new Date(Date.now() + 21000).getTime();
@@ -157,7 +157,7 @@ $(function()
         //show some response on the button
         $('button[type="submit"]', $form).each(function()
         {
-            //$btn = $(this);
+            //btn = $(this);
             //$btn.prop('type','button' ); 
             //$btn.prop('orig_label',$btn.text());
             //$btn.text('Sending ...');
@@ -169,8 +169,8 @@ $(function()
             data: $form.serialize(),
             success: after_form_submitted_3,
             dataType: 'json' 
-        }); 
-		return false;
+        });
+		return false;        
     });	
 	function after_form_submitted_3(data) 
     {
@@ -179,6 +179,47 @@ $(function()
 			document.getElementById("vtfstep3").reset();
 			$('#divMsg').hide();
 			$('#modalstep3').modal('hide');
+			$('#modalstep4').modal('show');
+            $('#error_message').hide();
+        }
+        else
+        {
+            $('#error_message').show();       
+        }
+    }
+});
+
+$(function()
+{
+	$('#vtfstep4').submit(function(e)
+    {
+		e.preventDefault();
+        $form = $(this);
+        //show some response on the button
+        $('button[type="submit"]', $form).each(function()
+        {
+            //$btn = $(this);
+            //$btn.prop('type','button' ); 
+            //$btn.prop('orig_label',$btn.text());
+            //$btn.text('Sending ...');
+			$('#divMsg').show();
+        });
+        $.ajax({
+            type: "POST",
+            url: 'assets//handler4.php',
+            data: $form.serialize(),
+            success: after_form_submitted_4,
+            dataType: 'json' 
+        }); 
+		return false;
+    });	
+	function after_form_submitted_4(data) 
+    {
+        if(data.result == 'success')
+        {
+			document.getElementById("vtfstep4").reset();
+			$('#divMsg').hide();
+			$('#modalstep4').modal('hide');
 			$('#modalthanks').modal('show');
             $('#error_message').hide();
         }
